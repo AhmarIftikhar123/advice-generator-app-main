@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Big+Shoulders+Display:wght@300&family=DM+Sans:ital,opsz,wght@1,9..40,200&family=Epilogue&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@200&family=Inter:wght@200&family=Josefin+Sans:wght@200;300&family=Kumbh+Sans:wght@300;400&family=League+Spartan&family=Lexend+Deca:wght@300;400&family=Libre+Franklin:wght@200&family=Manrope:wght@200;800&family=Open+Sans&family=Outfit:wght@200&family=Plus+Jakarta+Sans:wght@200&family=Poppins:wght@200;300&family=Red+Hat+Display&family=Rubik:wght@300&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+}
+
+:root {
+  --Grayish_Blue: hsl(217, 19%, 38%);
+  --Dark_Grayish_Blue: hsl(217, 19%, 24%);
+  --Dark_Blue: hsl(218, 23%, 16%);
+  --Light_Cyan: hsl(193, 38%, 86%);
+  --Neon_Green: hsl(150, 100%, 66%);
+}
+#subit_btn:hover{
+    box-shadow: 0 0 1rem var(--Neon_Green);
+}
+
+#subit_btn{
+    position: absolute;
+    transform: translateY(55%);
+    bottom: 0;
+  }
+
+@media(max-width:400px){
+    .card_container{
+        width: 350px;
+    }
+}
